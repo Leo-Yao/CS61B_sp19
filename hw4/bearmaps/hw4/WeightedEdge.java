@@ -1,4 +1,4 @@
-package bearmaps.hw4;
+package hw4.bearmaps.hw4;
 
 /**
  * Utility class that represents a weighted edge.

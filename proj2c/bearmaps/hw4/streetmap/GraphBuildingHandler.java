@@ -1,4 +1,4 @@
-package bearmaps.hw4.streetmap;
+package proj2c.bearmaps.hw4.streetmap;
 
 
 import org.xml.sax.Attributes;
@@ -99,7 +99,7 @@ public class GraphBuildingHandler extends DefaultHandler {
         } else if (activeState.equals("node") && qName.equals("tag") && attributes.getValue("k")
                 .equals("name")) {
 //            System.out.println("Node's name: " + attributes.getValue("v"));
-            activeNode.setName(attributes.getValue("v"));
+//            activeNode.setName(attributes.getValue("v"));
         }
     }
 
@@ -122,14 +122,14 @@ public class GraphBuildingHandler extends DefaultHandler {
                 for (int i = 0; i < nodePath.size() - 1; i++) {
                     long fromID = nodePath.get(i);
                     long toID = nodePath.get(i + 1);
-                    g.addWeightedEdge(fromID, toID, wayName);
-                    g.addWeightedEdge(toID, fromID, wayName);
+//                    g.addWeightedEdge(fromID, toID, wayName);
+//                    g.addWeightedEdge(toID, fromID, wayName);
                 }
             }
             clearStates();
         } else if (qName.equals("node")) {
             if (activeNode != null) {
-                g.addNode(activeNode);
+//                g.addNode(activeNode);
             }
             clearStates();
         }

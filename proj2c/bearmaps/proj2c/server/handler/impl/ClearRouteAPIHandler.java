@@ -1,6 +1,6 @@
-package bearmaps.proj2c.server.handler.impl;
+package proj2c.bearmaps.proj2c.server.handler.impl;
 
-import bearmaps.proj2c.server.handler.APIRouteHandler;
+import proj2c.bearmaps.proj2c.server.handler.APIRouteHandler;
 import spark.Request;
 import spark.Response;
 

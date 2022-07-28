@@ -1,4 +1,4 @@
-package bearmaps.hw4;
+package proj2c.bearmaps.hw4;
 
 import java.util.List;
 

@@ -1,6 +1,9 @@
-package bearmaps.hw4;
+package hw4.bearmaps.hw4;
 
 import edu.princeton.cs.algs4.Stopwatch;
+import hw4.bearmaps.hw4.AStarGraph;
+import hw4.bearmaps.hw4.SolverOutcome;
+import hw4.bearmaps.hw4.WeightedEdge;
 
 import java.util.List;
 

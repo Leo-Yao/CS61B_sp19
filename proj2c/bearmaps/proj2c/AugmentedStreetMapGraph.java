@@ -1,8 +1,6 @@
-package bearmaps.proj2c;
+package proj2c.bearmaps.proj2c;
 
-import bearmaps.hw4.streetmap.Node;
-import bearmaps.hw4.streetmap.StreetMapGraph;
-import bearmaps.proj2ab.Point;
+import proj2c.bearmaps.hw4.streetmap.StreetMapGraph;
 
 import java.util.*;
 

@@ -1,6 +1,7 @@
-package bearmaps.proj2c.server.handler;
+package proj2c.bearmaps.proj2c.server.handler;
 
-import bearmaps.proj2c.server.handler.impl.*;
+
+import proj2c.bearmaps.proj2c.server.handler.impl.*;
 
 import java.util.HashMap;
 import java.util.Map;

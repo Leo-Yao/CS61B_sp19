@@ -1,3 +1,5 @@
+package lab2setup;
+
 public class Dog {
     private int size;
 

@@ -1,4 +1,4 @@
-package bearmaps.hw4.streetmap;
+package proj2c.bearmaps.hw4.streetmap;
 
 /**
  * Vertex representation for the graph.

@@ -1,15 +1,16 @@
-package bearmaps.proj2c.server.handler.impl;
+package proj2c.bearmaps.proj2c.server.handler.impl;
 
-import bearmaps.proj2c.server.handler.APIRouteHandler;
+import proj2c.bearmaps.proj2c.server.handler.APIRouteHandler;
+import proj2c.bearmaps.proj2c.utils.Tuple;
 import spark.Request;
 import spark.Response;
-import bearmaps.proj2c.utils.Tuple;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static bearmaps.proj2c.utils.Constants.SEMANTIC_STREET_GRAPH;
+import static proj2c.bearmaps.proj2c.utils.Constants.SEMANTIC_STREET_GRAPH;
+
 
 /**
  * Created by rahul

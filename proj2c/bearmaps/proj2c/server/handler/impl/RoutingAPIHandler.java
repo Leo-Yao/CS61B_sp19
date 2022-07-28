@@ -1,7 +1,8 @@
-package bearmaps.proj2c.server.handler.impl;
+package proj2c.bearmaps.proj2c.server.handler.impl;
 
-import bearmaps.proj2c.Router;
-import bearmaps.proj2c.server.handler.APIRouteHandler;
+
+import proj2c.bearmaps.proj2c.Router;
+import proj2c.bearmaps.proj2c.server.handler.APIRouteHandler;
 import spark.Request;
 import spark.Response;
 
@@ -9,8 +10,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static bearmaps.proj2c.utils.Constants.SEMANTIC_STREET_GRAPH;
-import static bearmaps.proj2c.utils.Constants.ROUTE_LIST;
+import static proj2c.bearmaps.proj2c.utils.Constants.ROUTE_LIST;
+import static proj2c.bearmaps.proj2c.utils.Constants.SEMANTIC_STREET_GRAPH;
+
 
 /**
  * Handles requests from the web browser for routes between locations. The

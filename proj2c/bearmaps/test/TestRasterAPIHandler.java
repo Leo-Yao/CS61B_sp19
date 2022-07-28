@@ -1,8 +1,8 @@
-package bearmaps.test;
+package proj2c.bearmaps.test;
 
 import org.junit.Before;
 import org.junit.Test;
-import bearmaps.proj2c.server.handler.impl.RasterAPIHandler;
+import proj2c.bearmaps.proj2c.server.handler.impl.RasterAPIHandler;
 
 import java.nio.charset.Charset;
 import java.nio.file.Files;

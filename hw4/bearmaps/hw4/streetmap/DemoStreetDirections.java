@@ -1,7 +1,6 @@
-package bearmaps.hw4.streetmap;
+package hw4.bearmaps.hw4.streetmap;
 
-import bearmaps.hw4.AStarSolver;
-import bearmaps.hw4.SolutionPrinter;
+
 
 /**
  * Example that provides driving directions on the Berkeley street map.

@@ -1,4 +1,4 @@
-package bearmaps.proj2c;
+package proj2c.bearmaps.proj2c;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,13 +1,14 @@
-package bearmaps.proj2c;
+package proj2c.bearmaps.proj2c;
 
-import bearmaps.proj2c.server.handler.APIRouteHandler;
-import bearmaps.proj2c.utils.Constants;
+import proj2c.bearmaps.proj2c.server.handler.APIRouteHandler;
+import proj2c.bearmaps.proj2c.utils.Constants;
 
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
 import static spark.Spark.*;
+
 
 /**
  * Created by rahul

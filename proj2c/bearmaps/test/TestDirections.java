@@ -1,9 +1,9 @@
-package bearmaps.test;
+package proj2c.bearmaps.test;
 
-import bearmaps.proj2c.AugmentedStreetMapGraph;
 import org.junit.Before;
 import org.junit.Test;
-import bearmaps.proj2c.Router;
+import proj2c.bearmaps.proj2c.AugmentedStreetMapGraph;
+import proj2c.bearmaps.proj2c.Router;
 
 import java.nio.charset.Charset;
 import java.nio.file.Files;

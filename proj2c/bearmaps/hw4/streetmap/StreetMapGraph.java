@@ -1,8 +1,9 @@
-package bearmaps.hw4.streetmap;
+package proj2c.bearmaps.hw4.streetmap;
 
 import bearmaps.hw4.AStarGraph;
 import bearmaps.hw4.WeightedEdge;
 import org.xml.sax.SAXException;
+import proj2c.bearmaps.hw4.streetmap.Node;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
@@ -75,8 +76,8 @@ public class StreetMapGraph implements AStarGraph<Long> {
             FileInputStream inputStream = new FileInputStream(inputFile);
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
-            GraphBuildingHandler gbh = new GraphBuildingHandler(smg);
-            saxParser.parse(inputStream, gbh);
+//            bearmaps.hw4.streetmap.GraphBuildingHandler gbh = new bearmaps.hw4.streetmap.GraphBuildingHandler(smg);
+//            saxParser.parse(inputStream, gbh);
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
@@ -104,7 +105,7 @@ public class StreetMapGraph implements AStarGraph<Long> {
 
             Set<WeightedEdge<Long>> edgeSet = neighbors.get(fromID);
             WeightedEdge<Long> weightedEdge = new WeightedEdge<>(from.id(), to.id(), weight);
-            weightedEdge.setName(name);
+//            weightedEdge.setName(name);
             edgeSet.add(weightedEdge);
         }
     }
@@ -148,7 +149,7 @@ public class StreetMapGraph implements AStarGraph<Long> {
                 return false;
             }
 
-            List<WeightedEdge<Long>> myNeighbors = neighbors(id);
+            /*List<WeightedEdge<Long>> myNeighbors = neighbors(id);
             List<WeightedEdge<Long>> otherGraphNeighbors = otherGraph.neighbors(id);
 
             if (myNeighbors.size() != otherGraphNeighbors.size()) {
@@ -167,7 +168,7 @@ public class StreetMapGraph implements AStarGraph<Long> {
                 if (neighborsSet.size() != initialSize) {
                     return false;
                 }
-            }
+            }*/
         }
 
         return true;
