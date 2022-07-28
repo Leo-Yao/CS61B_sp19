@@ -1,3 +1,5 @@
+package lab3.Arithmetic;
+
 import static org.junit.Assert.*;
 import org.junit.Test;
 

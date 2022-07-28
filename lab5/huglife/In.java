@@ -1,4 +1,4 @@
-package huglife;
+package lab5.huglife;
 /*************************************************************************
  *  Compilation:  javac In.java
  *  Execution:    java In   (basic test --- see source for required files)

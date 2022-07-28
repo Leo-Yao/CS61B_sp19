@@ -1,4 +1,4 @@
-package es.datastructur.synthesizer;
+package hw1.es.datastructur.synthesizer;
 
 //Note: This file will not compile until you complete task 1 (BoundedQueue).
 public class GuitarString {
@@ -8,7 +8,7 @@ public class GuitarString {
     private static final double DECAY = .996; // energy decay factor
 
     /* Buffer for storing sound data. */
-    private BoundedQueue<Double> buffer;
+//    private BoundedQueue<Double> buffer;
 
     /* Create a guitar string of the given frequency.  */
     public GuitarString(double frequency) {

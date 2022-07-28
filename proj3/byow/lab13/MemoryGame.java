@@ -1,4 +1,4 @@
-package byow.lab13;
+package proj3.byow.lab13;
 
 import edu.princeton.cs.introcs.StdDraw;
 

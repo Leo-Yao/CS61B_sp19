@@ -4,7 +4,7 @@ import proj2c.bearmaps.proj2c.server.handler.APIRouteHandler;
 import spark.Request;
 import spark.Response;
 
-import static bearmaps.proj2c.utils.Constants.ROUTE_LIST;
+import static proj2c.bearmaps.proj2c.utils.Constants.ROUTE_LIST;
 
 
 /**

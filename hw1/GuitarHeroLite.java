@@ -1,5 +1,10 @@
+package hw1;
+
+import edu.princeton.cs.introcs.StdAudio;
+import hw1.es.datastructur.synthesizer.GuitarString;
+import proj0.StdDraw;
+
 /** A client that uses the synthesizer package to replicate a plucked guitar string sound */
-import es.datastructur.synthesizer.GuitarString;
 
 public class GuitarHeroLite {
     private static final double CONCERT_A = 440.0;

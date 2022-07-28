@@ -1,3 +1,5 @@
+package clab8;
+
 /**
  * A String-like class that allows users to add and remove characters in the String
  * in constant time and have a constant-time hash function. Used for the Rabin-Karp

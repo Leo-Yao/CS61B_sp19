@@ -1,7 +1,8 @@
-package bearmaps.hw4.lectureexample;
+package hw4.bearmaps.hw4.lectureexample;
 
-import bearmaps.hw4.AStarGraph;
-import bearmaps.hw4.WeightedEdge;
+
+import hw4.bearmaps.hw4.AStarGraph;
+import hw4.bearmaps.hw4.WeightedEdge;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,3 +1,5 @@
+package clab11;
+
 /**
  * Represents a Bed with a defined size. Can only be compared to Bear objects.
  * DO NOT MODIFY THIS FILE.

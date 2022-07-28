@@ -1,3 +1,5 @@
+package clab.clab6;
+
 public class UnionFind {
 
     // TODO - Add instance variables?

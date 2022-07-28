@@ -1,4 +1,4 @@
-package huglife;
+package lab5.huglife;
 
 import java.util.Queue;
 import java.util.ArrayDeque;

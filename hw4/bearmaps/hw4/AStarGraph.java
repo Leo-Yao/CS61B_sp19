@@ -7,6 +7,6 @@ import java.util.List;
  * Created by hug.
  */
 public interface AStarGraph<Vertex> {
-    List<bearmaps.hw4.WeightedEdge<Vertex>> neighbors(Vertex v);
+    List<WeightedEdge<Vertex>> neighbors(Vertex v);
     double estimatedDistanceToGoal(Vertex s, Vertex goal);
 }

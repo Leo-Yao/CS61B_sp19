@@ -1,3 +1,5 @@
+package clab7;
+
 import java.util.NoSuchElementException;
 
 /*  @author Josh Hug, with most code created by:

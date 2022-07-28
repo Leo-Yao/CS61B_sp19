@@ -1,3 +1,5 @@
+package clab11;
+
 /**
  * Utility class. Useful for returning two objects. Immutable.
  */

@@ -1,4 +1,8 @@
+package proj1gold;
+
 import org.junit.Test;
+import proj0.examples.StdRandom;
+
 import static org.junit.Assert.*;
 
 /** Demos the version of assertEquals with a String message. */

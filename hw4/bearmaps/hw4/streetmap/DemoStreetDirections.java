@@ -1,6 +1,7 @@
 package hw4.bearmaps.hw4.streetmap;
 
 
+import hw4.bearmaps.hw4.SolutionPrinter;
 
 /**
  * Example that provides driving directions on the Berkeley street map.
@@ -12,7 +13,7 @@ package hw4.bearmaps.hw4.streetmap;
 public class DemoStreetDirections {
     public static void main(String[] args) {
         StreetMapGraph smg = StreetMapGraph.readFromSimpleFormat("berkeley-street-data.simple");
-        AStarSolver<Long> solver = new AStarSolver<>(smg, 2793619975L, 2793619967L, 5);
-        SolutionPrinter.summarizeSolution(solver, "->");
+//        AStarSolver<Long> solver = new AStarSolver<>(smg, 2793619975L, 2793619967L, 5);
+//        SolutionPrinter.summarizeSolution(solver, "->");
     }
 }

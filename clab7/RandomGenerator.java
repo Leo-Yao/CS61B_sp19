@@ -1,3 +1,5 @@
+package clab7;
+
 import java.util.Random;
 
 /**

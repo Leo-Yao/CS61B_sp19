@@ -1,9 +1,7 @@
 package hw4.bearmaps.hw4;
 
 import edu.princeton.cs.algs4.Stopwatch;
-import hw4.bearmaps.hw4.AStarGraph;
-import hw4.bearmaps.hw4.SolverOutcome;
-import hw4.bearmaps.hw4.WeightedEdge;
+
 
 import java.util.List;
 
@@ -25,7 +23,7 @@ public class LazySolver<Vertex> implements ShortestPathsSolver<Vertex> {
         List<WeightedEdge<Vertex>> neighborEdges = G.neighbors(start);
         for (WeightedEdge<Vertex> e : neighborEdges) {
             if (e.to().equals(goal)) {
-                solution = List.of(start, goal);
+//                solution = List.of(start, goal);
                 solutionWeight = e.weight();
                 outcome = SolverOutcome.SOLVED;
                 timeSpent = sw.elapsedTime();

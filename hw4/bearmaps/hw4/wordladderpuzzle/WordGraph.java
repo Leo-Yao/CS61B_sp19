@@ -1,8 +1,9 @@
-package bearmaps.hw4.wordladderpuzzle;
+package hw4.bearmaps.hw4.wordladderpuzzle;
 
-import bearmaps.hw4.AStarGraph;
-import bearmaps.hw4.WeightedEdge;
+
 import edu.princeton.cs.introcs.In;
+import hw4.bearmaps.hw4.AStarGraph;
+import hw4.bearmaps.hw4.WeightedEdge;
 
 import java.util.ArrayList;
 import java.util.HashSet;

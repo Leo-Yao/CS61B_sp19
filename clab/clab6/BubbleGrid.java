@@ -1,3 +1,5 @@
+package clab.clab6;
+
 public class BubbleGrid {
     private int[][] grid;
 

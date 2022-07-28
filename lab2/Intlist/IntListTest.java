@@ -1,3 +1,5 @@
+package lab2.Intlist;
+
 import static org.junit.Assert.*;
 
 import lab2.Intlist.IntList;

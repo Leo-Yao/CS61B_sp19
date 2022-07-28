@@ -1,4 +1,4 @@
-package bearmaps;
+package proj2ab.bearmaps;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

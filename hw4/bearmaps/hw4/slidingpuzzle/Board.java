@@ -1,4 +1,4 @@
-package bearmaps.hw4.slidingpuzzle;
+package hw4.bearmaps.hw4.slidingpuzzle;
 
 import edu.princeton.cs.introcs.In;
 

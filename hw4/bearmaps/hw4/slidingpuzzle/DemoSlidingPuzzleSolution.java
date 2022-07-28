@@ -1,8 +1,9 @@
-package bearmaps.hw4.slidingpuzzle;
+package hw4.bearmaps.hw4.slidingpuzzle;
 
-import bearmaps.hw4.LazySolver;
-import bearmaps.hw4.ShortestPathsSolver;
-import bearmaps.hw4.SolutionPrinter;
+
+import hw4.bearmaps.hw4.LazySolver;
+import hw4.bearmaps.hw4.ShortestPathsSolver;
+import hw4.bearmaps.hw4.SolutionPrinter;
 
 /**
  * Showcases how the AStarSolver can be used for solving sliding puzzles.

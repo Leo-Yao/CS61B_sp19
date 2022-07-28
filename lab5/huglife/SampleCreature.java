@@ -1,4 +1,4 @@
-package huglife;
+package lab5.huglife;
 
 import java.awt.Color;
 import java.util.Map;

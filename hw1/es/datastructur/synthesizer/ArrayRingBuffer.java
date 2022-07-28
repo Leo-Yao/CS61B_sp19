@@ -1,4 +1,4 @@
-package es.datastructur.synthesizer;
+package hw1.es.datastructur.synthesizer;
 import java.util.Iterator;
 
 //TODO: Make sure to that this class and all of its methods are public

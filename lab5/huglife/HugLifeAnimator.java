@@ -1,4 +1,4 @@
-package huglife;
+package lab5.huglife;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,3 +1,5 @@
+package clab8;
+
 public class RabinKarpAlgorithm {
 
 

@@ -1,7 +1,8 @@
-package byow.Core;
+package proj3.byow.Core;
 
-import byow.TileEngine.TERenderer;
-import byow.TileEngine.TETile;
+
+import proj3.byow.TileEngine.TERenderer;
+import proj3.byow.TileEngine.TETile;
 
 public class Engine {
     TERenderer ter = new TERenderer();

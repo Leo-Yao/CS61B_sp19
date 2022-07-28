@@ -1,9 +1,10 @@
-package creatures;
+package lab5.creatures;
 
-import huglife.Creature;
-import huglife.Direction;
-import huglife.Action;
-import huglife.Occupant;
+
+import lab5.huglife.Action;
+import lab5.huglife.Creature;
+import lab5.huglife.Direction;
+import lab5.huglife.Occupant;
 
 import java.awt.Color;
 import java.util.ArrayDeque;

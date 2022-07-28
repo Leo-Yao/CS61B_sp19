@@ -1,4 +1,4 @@
-package bearmaps;
+package proj2ab.bearmaps;
 
 public class Point {
 

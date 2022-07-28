@@ -1,3 +1,5 @@
+package lab3.Flik;
+
 public class HorribleSteve {
     public static void main(String [] args) throws Exception {
         int i = 0;

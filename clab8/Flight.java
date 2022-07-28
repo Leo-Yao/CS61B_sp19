@@ -1,3 +1,5 @@
+package clab8;
+
 /**
  * Represents a flight in the Flight problem.
  */

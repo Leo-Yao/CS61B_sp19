@@ -1,4 +1,4 @@
-package byow.InputDemo;
+package proj3.byow.InputDemo;
 
 /**
  * Created by hug.

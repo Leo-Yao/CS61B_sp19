@@ -1,4 +1,4 @@
-package bearmaps;
+package proj2ab.bearmaps;
 
 import edu.princeton.cs.algs4.Stopwatch;
 

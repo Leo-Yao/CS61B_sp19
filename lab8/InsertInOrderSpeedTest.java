@@ -1,3 +1,5 @@
+package lab8;
+
 import java.util.HashMap;
 import java.io.IOException;
 import java.util.Scanner;
@@ -31,8 +33,8 @@ public class InsertInOrderSpeedTest {
                               i.waitForPositiveInt(input));
        
             System.out.print("\nEnter # strings to insert into MyHashMap: ");
-            timeInOrderMap61B(new MyHashMap<String, Integer>(), 
-                              i.waitForPositiveInt(input));
+            /*timeInOrderMap61B(new MyHashMap<String, Integer>(),
+                              i.waitForPositiveInt(input));*/
     
             System.out.print("\nEnter # strings to insert into Java's HashMap: ");
             timeInOrderHashMap(new HashMap<String, Integer>(), 

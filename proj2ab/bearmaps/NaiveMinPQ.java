@@ -1,4 +1,6 @@
-package bearmaps;
+package proj2ab.bearmaps;
+
+import proj2c.bearmaps.proj2ab.ExtrinsicMinPQ;
 
 import java.util.ArrayList;
 import java.util.Collections;

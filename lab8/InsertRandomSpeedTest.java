@@ -1,3 +1,5 @@
+package lab8;
+
 import java.util.HashMap;
 import java.io.IOException;
 import java.util.Scanner;
@@ -30,8 +32,8 @@ public class InsertRandomSpeedTest {
                             waitForPositiveInt(input), L);
 
             System.out.print("\nEnter # strings to insert into your MyHashMap: ");
-            timeRandomMap61B(new MyHashMap<String, Integer>(), 
-                            waitForPositiveInt(input), L);
+            /*timeRandomMap61B(new MyHashMap<String, Integer>(),
+                            waitForPositiveInt(input), L);*/
 
             System.out.print("\nEnter # strings to insert into Java's HashMap: ");
             timeRandomHashMap(new HashMap<String, Integer>(), 

@@ -1,3 +1,5 @@
+package clab11;
+
 import edu.princeton.cs.algs4.Stopwatch;
 import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.XYChart;

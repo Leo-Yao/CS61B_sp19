@@ -1,3 +1,5 @@
+package lab8;
+
 import java.util.regex.Pattern;
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package huglife;
+package lab5.huglife;
 
 /**
  * Actions are created by Creatures to signify intent, and take effect via

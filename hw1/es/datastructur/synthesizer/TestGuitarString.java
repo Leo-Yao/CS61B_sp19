@@ -1,4 +1,4 @@
-package es.datastructur.synthesizer;
+package hw1.es.datastructur.synthesizer;
 
 /* Imports the required audio library from the
  * edu.princeton.cs.introcs package. */

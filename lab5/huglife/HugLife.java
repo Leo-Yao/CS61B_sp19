@@ -1,6 +1,7 @@
-package huglife;
+package lab5.huglife;
 
-import creatures.*;
+
+import lab5.creatures.Plip;
 
 /**
  * World facing class for HugLife simulator.

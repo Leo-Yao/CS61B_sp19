@@ -1,7 +1,8 @@
 package proj2c.bearmaps.hw4.streetmap;
 
-import bearmaps.hw4.AStarGraph;
-import bearmaps.hw4.WeightedEdge;
+
+import hw4.bearmaps.hw4.AStarGraph;
+import hw4.bearmaps.hw4.WeightedEdge;
 import org.xml.sax.SAXException;
 import proj2c.bearmaps.hw4.streetmap.Node;
 

@@ -1,3 +1,5 @@
+package proj1gold;
+
 import java.util.LinkedList;
 
 /**
