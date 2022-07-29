@@ -1,6 +1,9 @@
 package lab2.DebugPractice;
 
-import proj0.In;
+
+import proj0.examples.In;
+
+import java.io.File;
 
 /**
  * Created by jug on 1/22/18.
@@ -23,7 +26,8 @@ public class DebugExercise3 {
     }
 
     public static void main(String[] args) {
-        In in = new In("foods.csv");
+        File file = new File("D:\\java_workspace\\CS61B\\lab2\\DebugPractice\\foods.csv");
+        In in = new In(file);
         System.out.println(countTurnips(in));
     }
 }
