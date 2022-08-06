@@ -20,15 +20,15 @@ public class TestReadBodies {
         String planetsTxtPath = "./data/planets.txt";
         /* If the following line fails to compile, you probably need to make
          * a certain method static! */
-       /* Body[] actualOutput = NBody.readBodies(planetsTxtPath);
+        Body[] actualOutput = NBody.readBodies(planetsTxtPath);
 
-        *//* Check the simple things: *//*
+        // Check the simple things:
         if (actualOutput == null) {
             return "FAIL: readBodies(); null output";
         }
         if (actualOutput.length != 5) {
             return "FAIL: readBodies().length: Expected 5 and you gave " + actualOutput.length;
-        }*/
+        }
 
         /* Check to make sure every planet exists, plus random spot checks */
         boolean foundEarth = false;
@@ -37,7 +37,7 @@ public class TestReadBodies {
         boolean foundSun = false;
         boolean foundVenus = false;
         boolean randomChecksOkay = true;
-        /*for (Body p : actualOutput) {
+        for (Body p : actualOutput) {
             if ("earth.gif".equals(p.imgFileName)) {
                 foundEarth = true;
                 if (!doubleEquals(p.xxPos, 1.4960e+11, 0.01)) {
@@ -62,7 +62,6 @@ public class TestReadBodies {
                 }
             }
         }
-*/
         /* Build up a nice list of missing planets */
         String missingBodys = "";
         if (!foundEarth) {

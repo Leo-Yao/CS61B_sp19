@@ -35,8 +35,8 @@ public class TestReadRadius {
         String planetsTxtPath = "./data/planets.txt";
         /* If the following line fails to compile, you probably need to make
          * a certain method static! */
-        /*double actualOutput = NBody.readRadius(planetsTxtPath);
-        checkEquals(actualOutput, 2.50E11, "readRadius()", 0.01);*/
+        double actualOutput = NBody.readRadius(planetsTxtPath);
+        checkEquals(actualOutput, 2.50E11, "readRadius()", 0.01);
     }
 
     public static void main(String[] args) {
