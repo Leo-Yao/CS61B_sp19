@@ -59,7 +59,6 @@ public class NBody {
         Planet[] planets = new Planet[5] ;
         int count = 0 ;
         while (count < num) {
-            Planet planet = new Planet();
             double xP = in.readDouble() ;
             double yP = in.readDouble() ;
             double xV = in.readDouble() ;
@@ -72,7 +71,7 @@ public class NBody {
         return planets ;
     }
 
-    public static void drawBackground(Double uniRadius) {
+    private static void drawBackground(Double uniRadius) {
         String imgPath = "images/starfield.jpg" ;
         StdDraw.enableDoubleBuffering();
         StdDraw.setScale(-uniRadius,uniRadius);
@@ -82,7 +81,7 @@ public class NBody {
         StdDraw.pause(20);
     }
 
-    public static void draw(Planet planet) {
+    private static void draw(Planet planet) {
         String imgPathPrefix = "images/" ;
         String imgPath = imgPathPrefix + planet.imgFileName ;
         double xxPos = planet.xxPos;

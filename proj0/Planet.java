@@ -9,9 +9,6 @@ public class Planet {
 
     private static final double gravConstant = 6.67e-11;
 
-    public Planet() {
-    }
-
     public Planet(double xxPos, double yyPos, double xxVel, double yyVel, double mass, String imgFileName) {
         this.xxPos = xxPos;
         this.yyPos = yyPos;
@@ -30,51 +27,51 @@ public class Planet {
         this.imgFileName = p.imgFileName;
     }
 
-    public double getXxPos() {
+    private double getXxPos() {
         return xxPos;
     }
 
-    public void setXxPos(double xxPos) {
+    private void setXxPos(double xxPos) {
         this.xxPos = xxPos;
     }
 
-    public double getYyPos() {
+    private double getYyPos() {
         return yyPos;
     }
 
-    public void setYyPos(double yyPos) {
+    private void setYyPos(double yyPos) {
         this.yyPos = yyPos;
     }
 
-    public double getXxVel() {
+    private double getXxVel() {
         return xxVel;
     }
 
-    public void setXxVel(double xxVel) {
+    private void setXxVel(double xxVel) {
         this.xxVel = xxVel;
     }
 
-    public double getYyVel() {
+    private double getYyVel() {
         return yyVel;
     }
 
-    public void setYyVel(double yyVel) {
+    private void setYyVel(double yyVel) {
         this.yyVel = yyVel;
     }
 
-    public double getMass() {
+    private double getMass() {
         return mass;
     }
 
-    public void setMass(double mass) {
+    private void setMass(double mass) {
         this.mass = mass;
     }
 
-    public String getImgFileName() {
+    private String getImgFileName() {
         return imgFileName;
     }
 
-    public void setImgFileName(String imgFileName) {
+    private void setImgFileName(String imgFileName) {
         this.imgFileName = imgFileName;
     }
 
@@ -129,5 +126,13 @@ public class Planet {
         this.yyVel += yAcceleration * dt ;
         this.xxPos += this.xxVel * dt ;
         this.yyPos += this.yyVel * dt ;
+    }
+
+    private static void draw(Planet planet) {
+        String imgPathPrefix = "images/" ;
+        String imgPath = imgPathPrefix + planet.imgFileName ;
+        double xxPos = planet.xxPos;
+        double yyPos = planet.yyPos;
+        StdDraw.picture(xxPos,yyPos,imgPath);
     }
 }
