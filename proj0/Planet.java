@@ -128,11 +128,9 @@ public class Planet {
         this.yyPos += this.yyVel * dt ;
     }
 
-    private static void draw(Planet planet) {
+    public void draw() {
         String imgPathPrefix = "images/" ;
-        String imgPath = imgPathPrefix + planet.imgFileName ;
-        double xxPos = planet.xxPos;
-        double yyPos = planet.yyPos;
+        String imgPath = imgPathPrefix + this.imgFileName ;
         StdDraw.picture(xxPos,yyPos,imgPath);
     }
 }

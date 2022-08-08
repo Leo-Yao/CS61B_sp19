@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class NBody {
 
     public static void main(String[] args) {
-//        args = new String[] {"157788000.0", "25000.0","data/planets.txt"} ;
+        args = new String[] {"157788000.0", "25000.0","data/planets.txt"} ;
         double T = Double.parseDouble(args[0]) ;
         double dt = Double.parseDouble(args[1]) ;
         String filename = args[2];
@@ -14,7 +14,7 @@ public class NBody {
         drawBackground(uniRadius) ;
 
         //draw all planets
-        Arrays.stream(planets).forEach(planet -> draw(planet));
+        Arrays.stream(planets).forEach(planet -> planet.draw());
         StdDraw.enableDoubleBuffering();
 
         double time = 0.0 ;
@@ -30,7 +30,7 @@ public class NBody {
             }
             StdDraw.clear();
             StdDraw.picture(0, 0, "images/starfield.jpg");
-            Arrays.stream(planets).forEach(planet -> draw(planet));
+            Arrays.stream(planets).forEach(planet -> planet.draw());
             StdDraw.show();
             StdDraw.pause(5);
             time += dt ;
@@ -54,19 +54,17 @@ public class NBody {
 
     public static Planet[] readPlanets(String fileName) {
         In in = new In(fileName);
-        int num = in.readInt() ;
+        int number = in.readInt() ;
         double radius = in.readDouble() ;
-        Planet[] planets = new Planet[5] ;
-        int count = 0 ;
-        while (count < num) {
+        Planet[] planets = new Planet[number] ;
+        for (int i = 0; i < number; i++) {
             double xP = in.readDouble() ;
             double yP = in.readDouble() ;
             double xV = in.readDouble() ;
             double yV = in.readDouble() ;
             double mass = in.readDouble() ;
             String imgFileName = in.readString() ;
-            planets[count] = new Planet(xP, yP, xV, yV, mass, imgFileName);
-            count ++ ;
+            planets[i] = new Planet(xP, yP, xV, yV, mass, imgFileName);
         }
         return planets ;
     }
@@ -81,11 +79,4 @@ public class NBody {
         StdDraw.pause(20);
     }
 
-    private static void draw(Planet planet) {
-        String imgPathPrefix = "images/" ;
-        String imgPath = imgPathPrefix + planet.imgFileName ;
-        double xxPos = planet.xxPos;
-        double yyPos = planet.yyPos;
-        StdDraw.picture(xxPos,yyPos,imgPath);
-    }
 }

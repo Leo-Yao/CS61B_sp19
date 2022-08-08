@@ -1,8 +1,8 @@
 package hw1;
 
 import edu.princeton.cs.introcs.StdAudio;
+import edu.princeton.cs.introcs.StdDraw;
 import hw1.es.datastructur.synthesizer.GuitarString;
-import proj0.StdDraw;
 
 /** A client that uses the synthesizer package to replicate a plucked guitar string sound */
 
