@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class NBody {
 
     public static void main(String[] args) {
-        args = new String[] {"157788000.0", "25000.0","data/planets.txt"} ;
+//        args = new String[] {"157788000.0", "25000.0","data/planets.txt"} ;
         double T = Double.parseDouble(args[0]) ;
         double dt = Double.parseDouble(args[1]) ;
         String filename = args[2];
