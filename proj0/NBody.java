@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class NBody {
 
     public static void main(String[] args) {
-        args = new String[] {"157788000.0", "25000.0","data/planets.txt"} ;
+//        args = new String[] {"157788000.0", "25000.0","data/planets.txt"} ;
         double T = Double.parseDouble(args[0]) ;
         double dt = Double.parseDouble(args[1]) ;
         String filename = args[2];
@@ -18,7 +18,7 @@ public class NBody {
         StdDraw.enableDoubleBuffering();
 
         double time = 0.0 ;
-        while (time <= T) {
+        while (time < T) {
             double[] xForces  = new double[planets.length];
             double[] yForces  = new double[planets.length];
             for (int j = 0; j < planets.length; j++) {
