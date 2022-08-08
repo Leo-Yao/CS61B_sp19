@@ -1,4 +1,3 @@
-package proj0;
 
 public class Planet {
     public double xxPos;

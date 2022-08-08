@@ -1,5 +1,3 @@
-package proj0;
-
 import java.util.Arrays;
 
 public class NBody {

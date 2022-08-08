@@ -1,4 +1,3 @@
-package proj0;
 
 /**
  *  Tests Nbody.readBodies. Reads in ./data/planets.txt and checks output of
