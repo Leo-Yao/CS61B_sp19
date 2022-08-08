@@ -34,13 +34,13 @@ public class TestBody {
      */
     public static void checkPairForce() {
         System.out.println("check pairForce......");
-        Body bodyA = new Body(1.0, 1.0, 3.0, 4.0, 5.0, "jupiter.gif");
-        Body bodyB = new Body(3.0, 4.0, 9.0, 5.0, 100.0, "sun.gif");
+        Planet planetA = new Planet(1.0, 1.0, 3.0, 4.0, 5.0, "jupiter.gif");
+        Planet planetB = new Planet(3.0, 4.0, 9.0, 5.0, 100.0, "sun.gif");
 
-        double forceExertedByXB = bodyA.calcForceExertedByX(bodyB);
-        double forceExertedByYB = bodyA.calcForceExertedByY(bodyB);
-        double forceExertedByXA = bodyB.calcForceExertedByX(bodyA);
-        double forceExertedByYA = bodyB.calcForceExertedByY(bodyA);
+        double forceExertedByXB = planetA.calcForceExertedByX(planetB);
+        double forceExertedByYB = planetA.calcForceExertedByY(planetB);
+        double forceExertedByXA = planetB.calcForceExertedByX(planetA);
+        double forceExertedByYA = planetB.calcForceExertedByY(planetA);
         checkEquals(forceExertedByXB,-forceExertedByXA,"check pair force in X-axis",0.01);
         checkEquals(forceExertedByYB,-forceExertedByYA,"check pair force in Y-axis",0.01);
     }
